@@ -3690,6 +3690,1115 @@ data["MOPS15SETS"] = {
 		},
 	},
 }
+
+-- Classic Season 11
+data["CLASSICS11SETS"] = {
+	name = string.format(AL["Season %d"], 11).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {	
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73618}, --Cataclysmic Gladiator's Dreadplate Helm
+				{ 2, 73616}, --Cataclysmic Gladiator's Dreadplate Shoulders
+				{ 3, 73620}, --Cataclysmic Gladiator's Dreadplate Chestpiece
+				{ 4, 73619}, --Cataclysmic Gladiator's Dreadplate Gauntlets
+				{ 5, 73617}, --Cataclysmic Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73598}, --Cataclysmic Gladiator's Wyrmhide Helm
+				{ 2, 73595}, --Cataclysmic Gladiator's Wyrmhide Spaulders
+				{ 3, 73596}, --Cataclysmic Gladiator's Wyrmhide Robes
+				{ 4, 73599}, --Cataclysmic Gladiator's Wyrmhide Gloves
+				{ 5, 73597}, --Cataclysmic Gladiator's Wyrmhide Legguards
+				{ 7, 73614}, --Cataclysmic Gladiator's Dragonhide Helm
+				{ 8, 73611}, --Cataclysmic Gladiator's Dragonhide Spaulders
+				{ 9, 73612}, --Cataclysmic Gladiator's Dragonhide Robes
+				{ 10, 73615}, --Cataclysmic Gladiator's Dragonhide Gloves
+				{ 11, 73613}, --Cataclysmic Gladiator's Dragonhide Legguards
+				{ 16, 73606}, --Cataclysmic Gladiator's Kodohide Helm
+				{ 17, 73603}, --Cataclysmic Gladiator's Kodohide Spaulders
+				{ 18, 73604}, --Cataclysmic Gladiator's Kodohide Robes
+				{ 19, 73607}, --Cataclysmic Gladiator's Kodohide Gloves
+				{ 20, 73605}, --Cataclysmic Gladiator's Kodohide Legguards				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73582}, --Cataclysmic Gladiator's Chain Helm
+				{ 2, 73580}, --Cataclysmic Gladiator's Chain Spaulders
+				{ 3, 73584}, --Cataclysmic Gladiator's Chain Armor
+				{ 4, 73583}, --Cataclysmic Gladiator's Chain Gauntlets
+				{ 5, 73581}, --Cataclysmic Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73575}, --Cataclysmic Gladiator's Silk Cowl
+				{ 2, 73572}, --Cataclysmic Gladiator's Silk Amice
+				{ 3, 73573}, --Cataclysmic Gladiator's Silk Robe
+				{ 4, 73576}, --Cataclysmic Gladiator's Silk Handguards
+				{ 5, 73574}, --Cataclysmic Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73569}, --Cataclysmic Gladiator's Scaled Helm
+				{ 2, 73567}, --Cataclysmic Gladiator's Scaled Shoulders
+				{ 3, 73571}, --Cataclysmic Gladiator's Scaled Chestpiece
+				{ 4, 73570}, --Cataclysmic Gladiator's Scaled Gauntlets
+				{ 5, 73568}, --Cataclysmic Gladiator's Scaled Legguards
+				{ 7, 73558}, --Cataclysmic Gladiator's Ornamented Headcover
+				{ 8, 73556}, --Cataclysmic Gladiator's Ornamented Spaulders
+				{ 9, 73560}, --Cataclysmic Gladiator's Ornamented Chestguard
+				{ 10, 73559}, --Cataclysmic Gladiator's Ornamented Gloves
+				{ 11, 73557}, --Cataclysmic Gladiator's Ornamented Legplates				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73543}, --Cataclysmic Gladiator's Satin Hood
+				{ 2, 73540}, --Cataclysmic Gladiator's Satin Mantle
+				{ 3, 73541}, --Cataclysmic Gladiator's Satin Robe
+				{ 4, 73544}, --Cataclysmic Gladiator's Satin Gloves
+				{ 5, 73542}, --Cataclysmic Gladiator's Satin Leggings
+				{ 7, 73548}, --Cataclysmic Gladiator's Mooncloth Helm
+				{ 8, 73545}, --Cataclysmic Gladiator's Mooncloth Mantle
+				{ 9, 73546}, --Cataclysmic Gladiator's Mooncloth Robe
+				{ 10, 73549}, --Cataclysmic Gladiator's Mooncloth Gloves
+				{ 11, 73547}, --Cataclysmic Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73525}, --Cataclysmic Gladiator's Leather Helm
+				{ 2, 73523}, --Cataclysmic Gladiator's Leather Spaulders
+				{ 3, 73527}, --Cataclysmic Gladiator's Leather Tunic
+				{ 4, 73526}, --Cataclysmic Gladiator's Leather Gloves
+				{ 5, 73524}, --Cataclysmic Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73504}, --Cataclysmic Gladiator's Mail Helm
+				{ 2, 73502}, --Cataclysmic Gladiator's Mail Spaulders
+				{ 3, 73506}, --Cataclysmic Gladiator's Mail Armor
+				{ 4, 73505}, --Cataclysmic Gladiator's Mail Gauntlets
+				{ 5, 73503}, --Cataclysmic Gladiator's Mail Leggings
+				{ 7, 73510}, --Cataclysmic Gladiator's Linked Helm
+				{ 8, 73508}, --Cataclysmic Gladiator's Linked Spaulders
+				{ 9, 73512}, --Cataclysmic Gladiator's Linked Armor
+				{ 10, 73511}, --Cataclysmic Gladiator's Linked Gauntlets
+				{ 11, 73509}, --Cataclysmic Gladiator's Linked Leggings
+				{ 16, 73515}, --Cataclysmic Gladiator's Ringmail Helm
+				{ 17, 73513}, --Cataclysmic Gladiator's Ringmail Spaulders
+				{ 18, 73517}, --Cataclysmic Gladiator's Ringmail Armor
+				{ 19, 73516}, --Cataclysmic Gladiator's Ringmail Gauntlets
+				{ 20, 73514}, --Cataclysmic Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73486}, --Cataclysmic Gladiator's Felweave Cowl
+				{ 2, 73483}, --Cataclysmic Gladiator's Felweave Amice
+				{ 3, 73484}, --Cataclysmic Gladiator's Felweave Raiment
+				{ 4, 73487}, --Cataclysmic Gladiator's Felweave Handguards
+				{ 5, 73485}, --Cataclysmic Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73480}, --Cataclysmic Gladiator's Plate Helm
+				{ 2, 73478}, --Cataclysmic Gladiator's Plate Shoulders
+				{ 3, 73482}, --Cataclysmic Gladiator's Plate Chestpiece
+				{ 4, 73481}, --Cataclysmic Gladiator's Plate Gauntlets
+				{ 5, 73479}, --Cataclysmic Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+{
+			name = AL["Weapons"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73452}, --Cataclysmic Gladiator's Right Render
+				{ 2, 73454}, --Cataclysmic Gladiator's Ripper
+				{ 3, 73451}, --Cataclysmic Gladiator's Slasher
+				{ 4, 73453}, --Cataclysmic Gladiator's Fleshslicer
+				{ 6, 73467}, --Cataclysmic Gladiator's Spellblade
+				{ 7, 73455}, --Cataclysmic Gladiator's Shanker
+				{ 8, 73461}, --Cataclysmic Gladiator's Shiv
+				{ 10, 73472}, --Cataclysmic Gladiator's Quickblade
+				{ 11, 73447}, --Cataclysmic Gladiator's Slicer
+				{ 13, 73474}, --Cataclysmic Gladiator's Cleaver
+				{ 14, 73449}, --Cataclysmic Gladiator's Hacker
+				{ 16, 73459}, --Cataclysmic Gladiator's Gavel
+				{ 17, 73448}, --Cataclysmic Gladiator's Bonecracker
+				{ 18, 73473}, --Cataclysmic Gladiator's Pummeler
+				{ 20, 73475}, --Cataclysmic Gladiator's Greatsword
+				{ 21, 73477}, --Cataclysmic Gladiator's Decapitator
+				{ 22, 73476}, --Cataclysmic Gladiator's Bonegrinder
+				{ 24, 73456}, --Cataclysmic Gladiator's Pike
+				{ 26, 73466}, --Cataclysmic Gladiator's Battle Staff
+				{ 27, 73457}, --Cataclysmic Gladiator's Energy Staff
+				{ 28, 73462}, --Cataclysmic Gladiator's Staff
+				{ 101, 73468}, --Cataclysmic Gladiator's Barrier
+				{ 102, 73458}, --Cataclysmic Gladiator's Redoubt
+				{ 103, 73446}, --Cataclysmic Gladiator's Shield Wall
+				{ 105, 73470}, --Cataclysmic Gladiator's Longbow
+				{ 106, 73463}, --Cataclysmic Gladiator's Heavy Crossbow
+				{ 107, 73460}, --Cataclysmic Gladiator's Rifle
+				{ 116, 73450}, --Cataclysmic Gladiator's Baton of Light
+				{ 117, 73464}, --Cataclysmic Gladiator's Touch of Defeat
+				{ 119, 73465}, --Cataclysmic Gladiator's Reprieve
+				{ 120, 73469}, --Cataclysmic Gladiator's Endgame	
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},		
+		{
+			name = AL["Non-Set Gear"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 73633}, --Cataclysmic Gladiator's Cuffs of Accuracy
+				{ 2, 73638}, --Cataclysmic Gladiator's Cord of Accuracy
+				{ 3, 73635}, --Cataclysmic Gladiator's Treads of Alacrity
+				{ 5, 73631}, --Cataclysmic Gladiator's Cuffs of Meditation
+				{ 6, 73637}, --Cataclysmic Gladiator's Cord of Meditation
+				{ 7, 73634}, --Cataclysmic Gladiator's Treads of Meditation
+				{ 9, 73632}, --Cataclysmic Gladiator's Cuffs of Prowess
+				{ 10, 73639}, --Cataclysmic Gladiator's Cord of Cruelty
+				{ 11, 73636}, --Cataclysmic Gladiator's Treads of Cruelty
+				{ 16, 73528}, --Cataclysmic Gladiator's Armwraps of Accuracy
+				{ 17, 73532}, --Cataclysmic Gladiator's Waistband of Accuracy
+				{ 18, 73531}, --Cataclysmic Gladiator's Boots of Cruelty
+				{ 20, 73529}, --Cataclysmic Gladiator's Armwraps of Alacrity
+				{ 21, 73533}, --Cataclysmic Gladiator's Waistband of Cruelty
+				{ 22, 73530}, --Cataclysmic Gladiator's Boots of Alacrity
+				{ 24, 73600}, --Cataclysmic Gladiator's Bindings of Prowess
+				{ 25, 73602}, --Cataclysmic Gladiator's Belt of Cruelty
+				{ 26, 73601}, --Cataclysmic Gladiator's Footguards of Alacrity
+				{ 28, 73608}, --Cataclysmic Gladiator's Bindings of Meditation
+				{ 29, 73610}, --Cataclysmic Gladiator's Belt of Meditation
+				{ 30, 73609}, --Cataclysmic Gladiator's Footguards of Meditation
+
+				{ 101, 73518}, --Cataclysmic Gladiator's Armbands of Meditation
+				{ 102, 73522}, --Cataclysmic Gladiator's Waistguard of Meditation
+				{ 103, 73520}, --Cataclysmic Gladiator's Sabatons of Meditation
+				{ 105, 73519}, --Cataclysmic Gladiator's Armbands of Prowess
+				{ 106, 73507}, --Cataclysmic Gladiator's Waistguard of Cruelty
+				{ 107, 73677}, --Cataclysmic Gladiator's Sabatons of Alacrity
+				{ 109, 73586}, --Cataclysmic Gladiator's Wristguards of Alacrity
+				{ 110, 73590}, --Cataclysmic Gladiator's Links of Cruelty
+				{ 111, 73587}, --Cataclysmic Gladiator's Sabatons of Alacrity
+				{ 113, 73585}, --Cataclysmic Gladiator's Wristguards of Accuracy
+				{ 114, 73589}, --Cataclysmic Gladiator's Links of Accuracy
+				{ 115, 73588}, --Cataclysmic Gladiator's Sabatons of Cruelty
+				{ 116, 73561}, --Cataclysmic Gladiator's Bracers of Meditation
+				{ 117, 73565}, --Cataclysmic Gladiator's Clasp of Meditation
+				{ 118, 73563}, --Cataclysmic Gladiator's Greaves of Meditation
+				{ 120, 73551}, --Cataclysmic Gladiator's Armplates of Proficiency
+				{ 121, 73554}, --Cataclysmic Gladiator's Girdle of Prowess
+				{ 122, 73552}, --Cataclysmic Gladiator's Warboots of Alacrity
+				{ 124, 73562}, --Cataclysmic Gladiator's Bracers of Prowess
+				{ 125, 73566}, --Cataclysmic Gladiator's Clasp of Cruelty
+				{ 126, 73564}, --Cataclysmic Gladiator's Greaves of Alacrity
+				{ 128, 73550}, --Cataclysmic Gladiator's Armplates of Alacrity
+				{ 129, 73555}, --Cataclysmic Gladiator's Girdle of Cruelty
+				{ 130, 73553}, --Cataclysmic Gladiator's Warboots of Cruelty			
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		}		
+	},
+}
+
+-- Classic Season 10
+data["CLASSICS10SETS"] = {
+	name = string.format(AL["Season %d"], 10).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70246}, --Ruthless Gladiator's Dreadplate Helm
+				{ 2, 70248}, --Ruthless Gladiator's Dreadplate Shoulders
+				{ 3, 70244}, --Ruthless Gladiator's Dreadplate Chestpiece
+				{ 4, 70245}, --Ruthless Gladiator's Dreadplate Gauntlets
+				{ 5, 70247}, --Ruthless Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70290}, --Ruthless Gladiator's Wyrmhide Helm
+				{ 2, 70293}, --Ruthless Gladiator's Wyrmhide Spaulders
+				{ 3, 70292}, --Ruthless Gladiator's Wyrmhide Robes
+				{ 4, 70289}, --Ruthless Gladiator's Wyrmhide Gloves
+				{ 5, 70291}, --Ruthless Gladiator's Wyrmhide Legguards
+				{ 7, 70280}, --Ruthless Gladiator's Dragonhide Helm
+				{ 8, 70283}, --Ruthless Gladiator's Dragonhide Spaulders
+				{ 9, 70282}, --Ruthless Gladiator's Dragonhide Robes
+				{ 10, 70279}, --Ruthless Gladiator's Dragonhide Gloves
+				{ 11, 70281}, --Ruthless Gladiator's Dragonhide Legguards
+				{ 16, 70285}, --Ruthless Gladiator's Kodohide Helm
+				{ 17, 70288}, --Ruthless Gladiator's Kodohide Spaulders
+				{ 18, 70287}, --Ruthless Gladiator's Kodohide Robes
+				{ 19, 70284}, --Ruthless Gladiator's Kodohide Gloves
+				{ 20, 70286}, --Ruthless Gladiator's Kodohide Legguards				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70261}, --Ruthless Gladiator's Chain Helm
+				{ 2, 70263}, --Ruthless Gladiator's Chain Spaulders
+				{ 3, 70259}, --Ruthless Gladiator's Chain Armor
+				{ 4, 70260}, --Ruthless Gladiator's Chain Gauntlets
+				{ 5, 70262}, --Ruthless Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70300}, --Ruthless Gladiator's Silk Cowl
+				{ 2, 70303}, --Ruthless Gladiator's Silk Amice
+				{ 3, 70302}, --Ruthless Gladiator's Silk Robe
+				{ 4, 70299}, --Ruthless Gladiator's Silk Handguards
+				{ 5, 70301}, --Ruthless Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70251}, --Ruthless Gladiator's Scaled Helm
+				{ 2, 70253}, --Ruthless Gladiator's Scaled Shoulders
+				{ 3, 70249}, --Ruthless Gladiator's Scaled Chestpiece
+				{ 4, 70250}, --Ruthless Gladiator's Scaled Gauntlets
+				{ 5, 70252}, --Ruthless Gladiator's Scaled Legguards
+				{ 7, 70355}, --Ruthless Gladiator's Ornamented Headcover
+				{ 8, 70357}, --Ruthless Gladiator's Ornamented Spaulders
+				{ 9, 70353}, --Ruthless Gladiator's Ornamented Chestguard
+				{ 10, 70354}, --Ruthless Gladiator's Ornamented Gloves
+				{ 11, 70356}, --Ruthless Gladiator's Ornamented Legplates				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70310}, --Ruthless Gladiator's Satin Hood
+				{ 2, 70313}, --Ruthless Gladiator's Satin Mantle
+				{ 3, 70312}, --Ruthless Gladiator's Satin Robe
+				{ 4, 70309}, --Ruthless Gladiator's Satin Gloves
+				{ 5, 70311}, --Ruthless Gladiator's Satin Leggings
+				{ 7, 70305}, --Ruthless Gladiator's Mooncloth Helm
+				{ 8, 70308}, --Ruthless Gladiator's Mooncloth Mantle
+				{ 9, 70307}, --Ruthless Gladiator's Mooncloth Robe
+				{ 10, 70304}, --Ruthless Gladiator's Mooncloth Gloves
+				{ 11, 70306}, --Ruthless Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70296}, --Ruthless Gladiator's Leather Helm
+				{ 2, 70298}, --Ruthless Gladiator's Leather Spaulders
+				{ 3, 70294}, --Ruthless Gladiator's Leather Tunic
+				{ 4, 70295}, --Ruthless Gladiator's Leather Gloves
+				{ 5, 70297}, --Ruthless Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70276}, --Ruthless Gladiator's Mail Helm
+				{ 2, 70278}, --Ruthless Gladiator's Mail Spaulders
+				{ 3, 70274}, --Ruthless Gladiator's Mail Armor
+				{ 4, 70275}, --Ruthless Gladiator's Mail Gauntlets
+				{ 5, 70277}, --Ruthless Gladiator's Mail Leggings
+				{ 7, 70271}, --Ruthless Gladiator's Linked Helm
+				{ 8, 70273}, --Ruthless Gladiator's Linked Spaulders
+				{ 9, 70269}, --Ruthless Gladiator's Linked Armor
+				{ 10, 70270}, --Ruthless Gladiator's Linked Gauntlets
+				{ 11, 70272}, --Ruthless Gladiator's Linked Leggings
+				{ 16, 70266}, --Ruthless Gladiator's Ringmail Helm
+				{ 17, 70268}, --Ruthless Gladiator's Ringmail Spaulders
+				{ 18, 70264}, --Ruthless Gladiator's Ringmail Armor
+				{ 19, 70265}, --Ruthless Gladiator's Ringmail Gauntlets
+				{ 20, 70267}, --Ruthless Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70315}, --Ruthless Gladiator's Felweave Cowl
+				{ 2, 70318}, --Ruthless Gladiator's Felweave Amice
+				{ 3, 70317}, --Ruthless Gladiator's Felweave Raiment
+				{ 4, 70314}, --Ruthless Gladiator's Felweave Handguards
+				{ 5, 70316}, --Ruthless Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 70256}, --Ruthless Gladiator's Plate Helm
+				{ 2, 70258}, --Ruthless Gladiator's Plate Shoulders
+				{ 3, 70254}, --Ruthless Gladiator's Plate Chestpiece
+				{ 4, 70255}, --Ruthless Gladiator's Plate Gauntlets
+				{ 5, 70257}, --Ruthless Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+-- Classic Season 9
+data["CLASSICS9SETS"] = {
+	name = string.format(AL["Season %d"], 9).." "..AL["Class Sets"].." ("..AL["Cataclysm"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60410}, --Vicious Gladiator's Dreadplate Helm
+				{ 2, 60412}, --Vicious Gladiator's Dreadplate Shoulders
+				{ 3, 60408}, --Vicious Gladiator's Dreadplate Chestpiece
+				{ 4, 60409}, --Vicious Gladiator's Dreadplate Gauntlets
+				{ 5, 60411}, --Vicious Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60454}, --Vicious Gladiator's Wyrmhide Helm
+				{ 2, 60457}, --Vicious Gladiator's Wyrmhide Spaulders
+				{ 3, 60456}, --Vicious Gladiator's Wyrmhide Robes
+				{ 4, 60453}, --Vicious Gladiator's Wyrmhide Gloves
+				{ 5, 60455}, --Vicious Gladiator's Wyrmhide Legguards
+				
+				{ 7, 60444}, --Vicious Gladiator's Dragonhide Helm
+				{ 8, 60447}, --Vicious Gladiator's Dragonhide Spaulders
+				{ 9, 60446}, --Vicious Gladiator's Dragonhide Robes
+				{ 10, 60443}, --Vicious Gladiator's Dragonhide Gloves
+				{ 11, 60445}, --Vicious Gladiator's Dragonhide Legguards
+				
+				{ 16, 60449}, --Vicious Gladiator's Kodohide Helm
+				{ 17, 60452}, --Vicious Gladiator's Kodohide Spaulders
+				{ 18, 60451}, --Vicious Gladiator's Kodohide Robes
+				{ 19, 60448}, --Vicious Gladiator's Kodohide Gloves
+				{ 20, 60450}, --Vicious Gladiator's Kodohide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60425}, --Vicious Gladiator's Chain Helm
+				{ 2, 60427}, --Vicious Gladiator's Chain Spaulders
+				{ 3, 60423}, --Vicious Gladiator's Chain Armor
+				{ 4, 60424}, --Vicious Gladiator's Chain Gauntlets
+				{ 5, 60426}, --Vicious Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60464}, --Vicious Gladiator's Silk Cowl
+				{ 2, 60467}, --Vicious Gladiator's Silk Amice
+				{ 3, 60466}, --Vicious Gladiator's Silk Robe
+				{ 4, 60463}, --Vicious Gladiator's Silk Handguards
+				{ 5, 60465}, --Vicious Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60415}, --Vicious Gladiator's Scaled Helm
+				{ 2, 60417}, --Vicious Gladiator's Scaled Shoulders
+				{ 3, 60413}, --Vicious Gladiator's Scaled Chestpiece
+				{ 4, 60414}, --Vicious Gladiator's Scaled Gauntlets
+				{ 5, 60416}, --Vicious Gladiator's Scaled Legguards
+				{ 7, 60603}, --Vicious Gladiator's Ornamented Headcover
+				{ 8, 60605}, --Vicious Gladiator's Ornamented Spaulders
+				{ 9, 60601}, --Vicious Gladiator's Ornamented Chestguard
+				{ 10, 60602}, --Vicious Gladiator's Ornamented Gloves
+				{ 11, 60604}, --Vicious Gladiator's Ornamented Legplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60474}, --Vicious Gladiator's Satin Hood
+				{ 2, 60477}, --Vicious Gladiator's Satin Mantle
+				{ 3, 60473}, --Vicious Gladiator's Satin Robe
+				{ 4, 60476}, --Vicious Gladiator's Satin Gloves
+				{ 5, 60475}, --Vicious Gladiator's Satin Leggings
+				{ 7, 60469}, --Vicious Gladiator's Mooncloth Helm
+				{ 8, 60472}, --Vicious Gladiator's Mooncloth Mantle
+				{ 9, 60471}, --Vicious Gladiator's Mooncloth Robe
+				{ 10, 60468}, --Vicious Gladiator's Mooncloth Gloves
+				{ 11, 60470}, --Vicious Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60460}, --Vicious Gladiator's Leather Helm
+				{ 2, 60462}, --Vicious Gladiator's Leather Spaulders
+				{ 3, 60458}, --Vicious Gladiator's Leather Tunic
+				{ 4, 60459}, --Vicious Gladiator's Leather Gloves
+				{ 5, 60461}, --Vicious Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60440}, --Vicious Gladiator's Mail Helm
+				{ 2, 60442}, --Vicious Gladiator's Mail Spaulders
+				{ 3, 60438}, --Vicious Gladiator's Mail Armor
+				{ 4, 60439}, --Vicious Gladiator's Mail Gauntlets
+				{ 5, 60441}, --Vicious Gladiator's Mail Leggings
+				{ 7, 60435}, --Vicious Gladiator's Linked Helm
+				{ 8, 60437}, --Vicious Gladiator's Linked Spaulders
+				{ 9, 60433}, --Vicious Gladiator's Linked Armor
+				{ 10, 60434}, --Vicious Gladiator's Linked Gauntlets
+				{ 11, 60436}, --Vicious Gladiator's Linked Leggings
+				{ 16, 60430}, --Vicious Gladiator's Ringmail Helm
+				{ 17, 60432}, --Vicious Gladiator's Ringmail Spaulders
+				{ 18, 60428}, --Vicious Gladiator's Ringmail Armor
+				{ 19, 60429}, --Vicious Gladiator's Ringmail Gauntlets
+				{ 20, 60431}, --Vicious Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60479}, --Vicious Gladiator's Felweave Cowl
+				{ 2, 60482}, --Vicious Gladiator's Felweave Amice
+				{ 3, 60481}, --Vicious Gladiator's Felweave Raiment
+				{ 4, 60478}, --Vicious Gladiator's Felweave Handguards
+				{ 5, 60480}, --Vicious Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 60420}, --Vicious Gladiator's Plate Helm
+				{ 2, 60422}, --Vicious Gladiator's Plate Shoulders
+				{ 3, 60418}, --Vicious Gladiator's Plate Chestpiece
+				{ 4, 60419}, --Vicious Gladiator's Plate Gauntlets
+				{ 5, 60421}, --Vicious Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+-- Classic Season 8
+data["CLASSICS8SETS"] = {
+	name = string.format(AL["Season %d"], 8).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51415}, --Wrathful Gladiator's Dreadplate Helm
+				{ 2, 51418}, --Wrathful Gladiator's Dreadplate Shoulders
+				{ 3, 51413}, --Wrathful Gladiator's Dreadplate Chestpiece
+				{ 4, 51414}, --Wrathful Gladiator's Dreadplate Gauntlets
+				{ 5, 51416}, --Wrathful Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51435}, --Wrathful Gladiator's Wyrmhide Helm
+				{ 2, 51438}, --Wrathful Gladiator's Wyrmhide Spaulders
+				{ 3, 51433}, --Wrathful Gladiator's Wyrmhide Robes
+				{ 4, 51434}, --Wrathful Gladiator's Wyrmhide Gloves
+				{ 5, 51436}, --Wrathful Gladiator's Wyrmhide Legguards
+				
+				{ 7, 51427}, --Wrathful Gladiator's Dragonhide Helm
+				{ 8, 51430}, --Wrathful Gladiator's Dragonhide Spaulders
+				{ 9, 51425}, --Wrathful Gladiator's Dragonhide Robes
+				{ 10, 51426}, --Wrathful Gladiator's Dragonhide Gloves
+				{ 11, 51428}, --Wrathful Gladiator's Dragonhide Legguards
+				
+				{ 16, 51421}, --Wrathful Gladiator's Kodohide Helm
+				{ 17, 51424}, --Wrathful Gladiator's Kodohide Spaulders
+				{ 18, 51419}, --Wrathful Gladiator's Kodohide Robes
+				{ 19, 51420}, --Wrathful Gladiator's Kodohide Gloves
+				{ 20, 51422}, --Wrathful Gladiator's Kodohide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51460}, --Wrathful Gladiator's Chain Helm
+				{ 2, 51462}, --Wrathful Gladiator's Chain Spaulders
+				{ 3, 51458}, --Wrathful Gladiator's Chain Armor
+				{ 4, 51459}, --Wrathful Gladiator's Chain Gauntlets
+				{ 5, 51461}, --Wrathful Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51465}, --Wrathful Gladiator's Silk Cowl
+				{ 2, 51467}, --Wrathful Gladiator's Silk Amice
+				{ 3, 51463}, --Wrathful Gladiator's Silk Raiment
+				{ 4, 51464}, --Wrathful Gladiator's Silk Handguards
+				{ 5, 51466}, --Wrathful Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51476}, --Wrathful Gladiator's Scaled Helm
+				{ 2, 51479}, --Wrathful Gladiator's Scaled Shoulders
+				{ 3, 51474}, --Wrathful Gladiator's Scaled Chestpiece
+				{ 4, 51475}, --Wrathful Gladiator's Scaled Gauntlets
+				{ 5, 51477}, --Wrathful Gladiator's Scaled Legguards
+				{ 7, 51470}, --Wrathful Gladiator's Ornamented Headcover
+				{ 8, 51473}, --Wrathful Gladiator's Ornamented Spaulders
+				{ 9, 51468}, --Wrathful Gladiator's Ornamented Chestguard
+				{ 10, 51469}, --Wrathful Gladiator's Ornamented Gloves
+				{ 11, 51471}, --Wrathful Gladiator's Ornamented Legplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51489}, --Wrathful Gladiator's Satin Hood
+				{ 2, 51491}, --Wrathful Gladiator's Satin Mantle
+				{ 3, 51487}, --Wrathful Gladiator's Satin Robe
+				{ 4, 51488}, --Wrathful Gladiator's Satin Gloves
+				{ 5, 51490}, --Wrathful Gladiator's Satin Leggings
+				{ 7, 51484}, --Wrathful Gladiator's Mooncloth Hood
+				{ 8, 51486}, --Wrathful Gladiator's Mooncloth Mantle
+				{ 9, 51482}, --Wrathful Gladiator's Mooncloth Robe
+				{ 10, 51483}, --Wrathful Gladiator's Mooncloth Gloves
+				{ 11, 51485}, --Wrathful Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51494}, --Wrathful Gladiator's Leather Helm
+				{ 2, 51496}, --Wrathful Gladiator's Leather Spaulders
+				{ 3, 51492}, --Wrathful Gladiator's Leather Tunic
+				{ 4, 51493}, --Wrathful Gladiator's Leather Gloves
+				{ 5, 51495}, --Wrathful Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51511}, --Wrathful Gladiator's Mail Helm
+				{ 2, 51514}, --Wrathful Gladiator's Mail Spaulders
+				{ 3, 51509}, --Wrathful Gladiator's Mail Armor
+				{ 4, 51510}, --Wrathful Gladiator's Mail Gauntlets
+				{ 5, 51512}, --Wrathful Gladiator's Mail Leggings
+				{ 7, 51505}, --Wrathful Gladiator's Linked Helm
+				{ 8, 51508}, --Wrathful Gladiator's Linked Spaulders
+				{ 9, 51503}, --Wrathful Gladiator's Linked Armor
+				{ 10, 51504}, --Wrathful Gladiator's Linked Gauntlets
+				{ 11, 51506}, --Wrathful Gladiator's Linked Leggings
+				{ 16, 51499}, --Wrathful Gladiator's Ringmail Helm
+				{ 17, 51502}, --Wrathful Gladiator's Ringmail Spaulders
+				{ 18, 51497}, --Wrathful Gladiator's Ringmail Armor
+				{ 19, 51498}, --Wrathful Gladiator's Ringmail Gauntlets
+				{ 20, 51500}, --Wrathful Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51538}, --Wrathful Gladiator's Felweave Cowl
+				{ 2, 51540}, --Wrathful Gladiator's Felweave Amice
+				{ 3, 51536}, --Wrathful Gladiator's Felweave Raiment
+				{ 4, 51537}, --Wrathful Gladiator's Felweave Handguards
+				{ 5, 51539}, --Wrathful Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 51543}, --Wrathful Gladiator's Plate Helm
+				{ 2, 51545}, --Wrathful Gladiator's Plate Shoulders
+				{ 3, 51541}, --Wrathful Gladiator's Plate Chestpiece
+				{ 4, 51542}, --Wrathful Gladiator's Plate Gauntlets
+				{ 5, 51544}, --Wrathful Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+-- Classic Season 7
+data["CLASSICS7SETS"] = {
+	name = string.format(AL["Season %d"], 7).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40830}, --Relentless Gladiator's Dreadplate Helm
+				{ 2, 40871}, --Relentless Gladiator's Dreadplate Shoulders
+				{ 3, 40791}, --Relentless Gladiator's Dreadplate Chestpiece
+				{ 4, 40811}, --Relentless Gladiator's Dreadplate Gauntlets
+				{ 5, 40851}, --Relentless Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41328}, --Relentless Gladiator's Wyrmhide Helm
+				{ 2, 41282}, --Relentless Gladiator's Wyrmhide Spaulders
+				{ 3, 41317}, --Relentless Gladiator's Wyrmhide Robes
+				{ 4, 41294}, --Relentless Gladiator's Wyrmhide Gloves
+				{ 5, 41305}, --Relentless Gladiator's Wyrmhide Legguards
+				
+				{ 7, 41679}, --Relentless Gladiator's Dragonhide Helm
+				{ 8, 41716}, --Relentless Gladiator's Dragonhide Spaulders
+				{ 9, 41662}, --Relentless Gladiator's Dragonhide Robes
+				{ 10, 41774}, --Relentless Gladiator's Dragonhide Gloves
+				{ 11, 41668}, --Relentless Gladiator's Dragonhide Legguards
+				
+				{ 16, 41322}, --Relentless Gladiator's Kodohide Helm
+				{ 17, 41276}, --Relentless Gladiator's Kodohide Spaulders
+				{ 18, 41311}, --Relentless Gladiator's Kodohide Robes
+				{ 19, 41288}, --Relentless Gladiator's Kodohide Gloves
+				{ 20, 41299}, --Relentless Gladiator's Kodohide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41158}, --Relentless Gladiator's Chain Helm
+				{ 2, 41218}, --Relentless Gladiator's Chain Spaulders
+				{ 3, 41088}, --Relentless Gladiator's Chain Armor
+				{ 4, 41144}, --Relentless Gladiator's Chain Gauntlets
+				{ 5, 41206}, --Relentless Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41947}, --Relentless Gladiator's Silk Cowl
+				{ 2, 41966}, --Relentless Gladiator's Silk Amice
+				{ 3, 41954}, --Relentless Gladiator's Silk Raiment
+				{ 4, 41972}, --Relentless Gladiator's Silk Handguards
+				{ 5, 41960}, --Relentless Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40831}, --Relentless Gladiator's Scaled Helm
+				{ 2, 40872}, --Relentless Gladiator's Scaled Shoulders
+				{ 3, 40792}, --Relentless Gladiator's Scaled Chestpiece
+				{ 4, 40812}, --Relentless Gladiator's Scaled Gauntlets
+				{ 5, 40852}, --Relentless Gladiator's Scaled Legguards
+				{ 7, 40934}, --Relentless Gladiator's Ornamented Headcover
+				{ 8, 40964}, --Relentless Gladiator's Ornamented Spaulders
+				{ 9, 40910}, --Relentless Gladiator's Ornamented Chestguard
+				{ 10, 40928}, --Relentless Gladiator's Ornamented Gloves
+				{ 11, 40940}, --Relentless Gladiator's Ornamented Legplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41916}, --Relentless Gladiator's Satin Hood
+				{ 2, 41935}, --Relentless Gladiator's Satin Mantle
+				{ 3, 41922}, --Relentless Gladiator's Satin Robe
+				{ 4, 41941}, --Relentless Gladiator's Satin Gloves
+				{ 5, 41928}, --Relentless Gladiator's Satin Leggings
+				{ 7, 41855}, --Relentless Gladiator's Mooncloth Hood
+				{ 8, 41870}, --Relentless Gladiator's Mooncloth Mantle
+				{ 9, 41860}, --Relentless Gladiator's Mooncloth Robe
+				{ 10, 41875}, --Relentless Gladiator's Mooncloth Gloves
+				{ 11, 41865}, --Relentless Gladiator's Mooncloth Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41673}, --Relentless Gladiator's Leather Helm
+				{ 2, 41684}, --Relentless Gladiator's Leather Spaulders
+				{ 3, 41651}, --Relentless Gladiator's Leather Tunic
+				{ 4, 41768}, --Relentless Gladiator's Leather Gloves
+				{ 5, 41656}, --Relentless Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41020}, --Relentless Gladiator's Mail Helm
+				{ 2, 41045}, --Relentless Gladiator's Mail Spaulders
+				{ 3, 40995}, --Relentless Gladiator's Mail Armor
+				{ 4, 41008}, --Relentless Gladiator's Mail Gauntlets
+				{ 5, 41034}, --Relentless Gladiator's Mail Leggings
+				{ 7, 41152}, --Relentless Gladiator's Linked Helm
+				{ 8, 41212}, --Relentless Gladiator's Linked Spaulders
+				{ 9, 41082}, --Relentless Gladiator's Linked Armor
+				{ 10, 41138}, --Relentless Gladiator's Linked Gauntlets
+				{ 11, 41200}, --Relentless Gladiator's Linked Leggings
+				{ 16, 41014}, --Relentless Gladiator's Ringmail Helm
+				{ 17, 41039}, --Relentless Gladiator's Ringmail Spaulders
+				{ 18, 40994}, --Relentless Gladiator's Ringmail Armor
+				{ 19, 41002}, --Relentless Gladiator's Ringmail Gauntlets
+				{ 20, 41028}, --Relentless Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41994}, --Relentless Gladiator's Felweave Cowl
+				{ 2, 42012}, --Relentless Gladiator's Felweave Amice
+				{ 3, 41999}, --Relentless Gladiator's Felweave Raiment
+				{ 4, 42018}, --Relentless Gladiator's Felweave Handguards
+				{ 5, 42006}, --Relentless Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40829}, --Relentless Gladiator's Plate Helm
+				{ 2, 40870}, --Relentless Gladiator's Plate Shoulders
+				{ 3, 40790}, --Relentless Gladiator's Plate Chestpiece
+				{ 4, 40810}, --Relentless Gladiator's Plate Gauntlets
+				{ 5, 40850}, --Relentless Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
+-- Classic Season 6
+data["CLASSICS6SETS"] = {
+	name = string.format(AL["Season %d"], 6).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40827}, --Furious Gladiator's Dreadplate Helm
+				{ 2, 40868}, --Furious Gladiator's Dreadplate Shoulders
+				{ 3, 40787}, --Furious Gladiator's Dreadplate Chestpiece
+				{ 4, 40809}, --Furious Gladiator's Dreadplate Gauntlets
+				{ 5, 40848}, --Furious Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41678}, --Furious Gladiator's Dragonhide Helm
+				{ 2, 41715}, --Furious Gladiator's Dragonhide Spaulders
+				{ 3, 41661}, --Furious Gladiator's Dragonhide Robes
+				{ 4, 41773}, --Furious Gladiator's Dragonhide Gloves
+				{ 5, 41667}, --Furious Gladiator's Dragonhide Legguards
+				
+				{ 7, 41327}, --Furious Gladiator's Wyrmhide Helm
+				{ 8, 41281}, --Furious Gladiator's Wyrmhide Spaulders
+				{ 9, 41316}, --Furious Gladiator's Wyrmhide Robes
+				{ 10, 41293},--Furious Gladiator's Wyrmhide Gloves
+				{ 11, 41304},--Furious Gladiator's Wyrmhide Legguards
+				
+				{ 16, 41321},--Furious Gladiator's Kodohide Helm
+				{ 17, 41275},--Furious Gladiator's Kodohide Spaulders
+				{ 18, 41310},--Furious Gladiator's Kodohide Robes
+				{ 19, 41287},--Furious Gladiator's Kodohide Gloves
+				{ 20, 41298},--Furious Gladiator's Kodohide Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41157}, --Furious Gladiator's Chain Helm
+				{ 2, 41217}, --Furious Gladiator's Chain Spaulders
+				{ 3, 41087}, --Furious Gladiator's Chain Armor
+				{ 4, 41143}, --Furious Gladiator's Chain Gauntlets
+				{ 5, 41205}, --Furious Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41946}, --Furious Gladiator's Silk Cowl
+				{ 2, 41965}, --Furious Gladiator's Silk Amice
+				{ 3, 41953}, --Furious Gladiator's Silk Raiment
+				{ 4, 41971}, --Furious Gladiator's Silk Handguards
+				{ 5, 41959}, --Furious Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40828}, --Furious Gladiator's Scaled Helm
+				{ 2, 40869}, --Furious Gladiator's Scaled Shoulders
+				{ 3, 40788}, --Furious Gladiator's Scaled Chestpiece
+				{ 4, 40808}, --Furious Gladiator's Scaled Gauntlets
+				{ 5, 40849}, --Furious Gladiator's Scaled Legguards
+				{ 16, 40933}, --Furious Gladiator's Ornamented Headcover
+				{ 17, 40963}, --Furious Gladiator's Ornamented Spaulders
+				{ 18, 40907}, --Furious Gladiator's Ornamented Chestguard
+				{ 19, 40927}, --Furious Gladiator's Ornamented Gloves
+				{ 20, 40939}, --Furious Gladiator's Ornamented Legplates
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41915}, --Furious Gladiator's Satin Hood
+				{ 2, 41934}, --Furious Gladiator's Satin Mantle
+				{ 3, 41921}, --Furious Gladiator's Satin Robe
+				{ 4, 41940}, --Furious Gladiator's Satin Gloves
+				{ 5, 41927}, --Furious Gladiator's Satin Leggings
+				{ 16, 41854}, --Furious Gladiator's Mooncloth Hood
+				{ 17, 41869}, --Furious Gladiator's Mooncloth Mantle
+				{ 18, 41859}, --Furious Gladiator's Mooncloth Robe
+				{ 19, 41874}, --Furious Gladiator's Mooncloth Gloves
+				{ 20, 41864}, --Furious Gladiator's Mooncloth Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41672}, --Furious Gladiator's Leather Helm
+				{ 2, 41683}, --Furious Gladiator's Leather Spaulders
+				{ 3, 41650}, --Furious Gladiator's Leather Tunic
+				{ 4, 41767}, --Furious Gladiator's Leather Gloves
+				{ 5, 41655}, --Furious Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41019}, --Furious Gladiator's Mail Helm
+				{ 2, 41044}, --Furious Gladiator's Mail Spaulders
+				{ 3, 40993}, --Furious Gladiator's Mail Armor
+				{ 4, 41007}, --Furious Gladiator's Mail Gauntlets
+				{ 5, 41033}, --Furious Gladiator's Mail Leggings
+				{ 7, 41151}, --Furious Gladiator's Linked Helm
+				{ 8, 41211}, --Furious Gladiator's Linked Spaulders
+				{ 9, 41081}, --Furious Gladiator's Linked Armor
+				{ 10, 41137}, --Furious Gladiator's Linked Gauntlets
+				{ 11, 41199}, --Furious Gladiator's Linked Leggings
+				{ 16, 41013}, --Furious Gladiator's Ringmail Helm
+				{ 17, 41038}, --Furious Gladiator's Ringmail Spaulders
+				{ 18, 40992}, --Furious Gladiator's Ringmail Armor
+				{ 19, 41001}, --Furious Gladiator's Ringmail Gauntlets
+				{ 20, 41027}, --Furious Gladiator's Ringmail Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 41993}, --Furious Gladiator's Felweave Cowl
+				{ 2, 42011}, --Furious Gladiator's Felweave Amice
+				{ 3, 41998}, --Furious Gladiator's Felweave Raiment
+				{ 4, 42017}, --Furious Gladiator's Felweave Handguards
+				{ 5, 42005}, --Furious Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 40826}, --Furious Gladiator's Plate Helm
+				{ 2, 40866}, --Furious Gladiator's Plate Shoulders
+				{ 3, 40789}, --Furious Gladiator's Plate Chestpiece
+				{ 4, 40807}, --Furious Gladiator's Plate Gauntlets
+				{ 5, 40847}, --Furious Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+	},
+}
+
 -- Classic Season 5
 data["CLASSICS5SETS"] = {
 	name = string.format(AL["Season %d"], 5).." "..AL["Class Sets"].." ("..AL["Wrath of the Lich King"]..")",
