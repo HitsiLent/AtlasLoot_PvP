@@ -3688,6 +3688,671 @@ data["MOPS15SETS"] = {
 				{ 26, 102965, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Legguards
 			},
 		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				-- Retribution, 550 > 522
+				{ 1, 102615, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Helm
+				{ 2, 102703, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Scaled Spaulders
+				{ 3, 102704, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Chestguard
+				{ 4, 102681, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Scaled Gloves
+				{ 5, 102750, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Legguards
+				{ 16, 103265, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Helm
+				{ 17, 103266, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Scaled Spaulders
+				{ 18, 103267, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Chestguard
+				{ 19, 103268, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Scaled Gloves
+				{ 20, 103269, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Legguards
+				-- Holy, 550 > 522
+				{ 7, 102707, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Helm
+				{ 8, 102751, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Ornamented Spaulders
+				{ 9, 102621, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Chestguard
+				{ 10, 102622, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Ornamented Gloves
+				{ 11, 102671, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Legguards
+				{ 22, 103270, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Helm
+				{ 23, 103271, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Ornamented Spaulders
+				{ 24, 103272, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Chestguard
+				{ 25, 103273, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Ornamented Gloves
+				{ 26, 103274, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				-- Retribution, 550 > 522
+				{ 1, 103462, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Helm
+				{ 2, 103463, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Scaled Spaulders
+				{ 3, 103464, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Chestguard
+				{ 4, 103465, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Scaled Gloves
+				{ 5, 103466, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Scaled Legguards
+				{ 16, 102812, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Helm
+				{ 17, 102900, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Scaled Spaulders
+				{ 18, 102901, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Chestguard
+				{ 19, 102878, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Scaled Gloves
+				{ 20, 102947, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Scaled Legguards
+				-- Holy, 550 > 522
+				{ 7, 103467, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Helm
+				{ 8, 103468, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Ornamented Spaulders
+				{ 9, 103469, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Chestguard
+				{ 10, 103470, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Prideful Gladiator's Ornamented Gloves
+				{ 11, 103471, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Prideful Gladiator's Ornamented Legguards
+				{ 22, 102904, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Helm
+				{ 23, 102948, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Ornamented Spaulders
+				{ 24, 102818, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Chestguard
+				{ 25, 102819, [PRICE_EXTRA_ITTYPE] = "honor:1750" },	-- Grievous Gladiator's Ornamented Gloves
+				{ 26, 102868, [PRICE_EXTRA_ITTYPE] = "honor:2250" },	-- Grievous Gladiator's Ornamented Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 102727}, 
+				{ 2, 102663},
+				{ 3, 102710},
+				{ 4, 102730},
+				{ 5, 102731},
+				
+				{ 16, 103475}, 
+				{ 17, 103476}, 
+				{ 18, 103477}, 
+				{ 19, 103478}, 
+				{ 20, 103479},
+			},
+			[HORDE_DIFF] = {
+				{ 1, 103278}, 
+				{ 2, 103279}, 
+				{ 3, 103280}, 
+				{ 4, 103281}, 
+				{ 5, 103282}, 
+				
+				{ 16, 102924}, 
+				{ 17, 102860}, 
+				{ 18, 102907}, 
+				{ 19, 102927}, 
+				{ 20, 102928}, 		
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				--  550 > 522
+				{ 1, 102718},	-- Prideful Gladiator's  
+				{ 2, 102655},	-- Prideful Gladiator's  
+				{ 3, 102717},	-- Prideful Gladiator's  
+				{ 4, 102719},	-- Prideful Gladiator's  
+				{ 5, 102774},	-- Prideful Gladiator's  
+				{ 16, 103290},	-- Grievous Gladiator's  
+				{ 17, 103292},	-- Grievous Gladiator's  
+				{ 18, 103288},	-- Grievous Gladiator's  
+				{ 19, 103291},	-- Grievous Gladiator's  
+				{ 20, 103289},	-- Grievous Gladiator's  
+				--  550 > 522
+				{ 7, 102693},	-- Prideful Gladiator's  
+				{ 8, 102637},	-- Prideful Gladiator's  
+				{ 9, 102743},	-- Prideful Gladiator's  
+				{ 10, 102781},	-- Prideful Gladiator's  
+				{ 11, 102692},	-- Prideful Gladiator's  
+				{ 22, 103301},	-- Grievous Gladiator's  
+				{ 23, 103303},	-- Grievous Gladiator's  
+				{ 24, 103299},	-- Grievous Gladiator's  
+				{ 25, 103302},	-- Grievous Gladiator's  
+				{ 26, 103300},	-- Grievous Gladiator's  
+				--  550 > 522
+				{ 101, 102714},	-- Prideful Gladiator's  
+				{ 102, 102629},	-- Prideful Gladiator's  
+				{ 103, 102759},	-- Prideful Gladiator's  
+				{ 104, 102778},	-- Prideful Gladiator's  
+				{ 105, 102742},	-- Prideful Gladiator's  
+				{ 116, 103295},	-- Grievous Gladiator's  
+				{ 117, 103297},	-- Grievous Gladiator's  
+				{ 118, 103293},	-- Grievous Gladiator's  
+				{ 119, 103296},	-- Grievous Gladiator's  
+				{ 120, 103294},	-- Grievous Gladiator's  
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				--  550 > 522
+				{ 1, 103487},	-- Prideful Gladiator's  
+				{ 2, 103489},	-- Prideful Gladiator's  
+				{ 3, 103485},	-- Prideful Gladiator's  
+				{ 4, 103488},	-- Prideful Gladiator's  
+				{ 5, 103486},	-- Prideful Gladiator's  
+				{ 16, 102915},	-- Grievous Gladiator's  
+				{ 17, 102852},	-- Grievous Gladiator's  
+				{ 18, 102914},	-- Grievous Gladiator's  
+				{ 19, 102916},	-- Grievous Gladiator's  
+				{ 20, 102971},	-- Grievous Gladiator's  
+				--  550 > 522
+				{ 7, 103498},	-- Prideful Gladiator's  
+				{ 8, 103500},	-- Prideful Gladiator's  
+				{ 9, 103496},	-- Prideful Gladiator's  
+				{ 10, 103499},	-- Prideful Gladiator's  
+				{ 11, 103497},	-- Prideful Gladiator's  
+				{ 22, 102890},	-- Grievous Gladiator's  
+				{ 23, 102834},	-- Grievous Gladiator's  
+				{ 24, 102940},	-- Grievous Gladiator's  
+				{ 25, 102978},	-- Grievous Gladiator's  
+				{ 26, 102889},	-- Grievous Gladiator's  
+				--  550 > 522
+				{ 101, 103492},	-- Prideful Gladiator's  
+				{ 102, 103494},	-- Prideful Gladiator's  
+				{ 103, 103490},	-- Prideful Gladiator's  
+				{ 104, 103493},	-- Prideful Gladiator's  
+				{ 105, 103491},	-- Prideful Gladiator's  
+				{ 116, 102911},	-- Grievous Gladiator's  
+				{ 117, 102826},	-- Grievous Gladiator's  
+				{ 118, 102956},	-- Grievous Gladiator's  
+				{ 119, 102975},	-- Grievous Gladiator's  
+				{ 120, 102939},	-- Grievous Gladiator's  
+			},
+		},		
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 102725}, 
+				{ 2, 102726},
+				{ 3, 102755},
+				{ 4, 102661},
+				{ 5, 102682},
+				
+				{ 16, 103323}, 
+				{ 17, 103324}, 
+				{ 18, 103325}, 
+				{ 19, 103326}, 
+				{ 20, 103327},
+			},
+			[HORDE_DIFF] = {
+				{ 1, 103520}, 
+				{ 2, 103521}, 
+				{ 3, 103522}, 
+				{ 4, 103523}, 
+				{ 5, 103524}, 
+				
+				{ 16, 102922}, 
+				{ 17, 102923}, 
+				{ 18, 102952}, 
+				{ 19, 102858}, 
+				{ 20, 102879}, 		
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 102728}, 
+				{ 2, 102618},
+				{ 3, 102619},
+				{ 4, 102732},
+				{ 5, 102685},
+				
+				{ 16, 103328}, 
+				{ 17, 103329}, 
+				{ 18, 103330}, 
+				{ 19, 103331}, 
+				{ 20, 103332},
+			},
+			[HORDE_DIFF] = {
+				{ 1, 103525}, 
+				{ 2, 103526}, 
+				{ 3, 103527}, 
+				{ 4, 103528}, 
+				{ 5, 103529}, 
+				
+				{ 16, 102925}, 
+				{ 17, 102815}, 
+				{ 18, 102816}, 
+				{ 19, 102929}, 
+				{ 20, 102882}, 		
+			},
+		},		
+	},
+}
+
+-- Classic Season 13
+data["CLASSICS13SETS"] = {
+	name = string.format(AL["Season %d"], 13).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {	
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91147}, 
+				{ 2, 91149}, 
+				{ 3, 91151}, 
+				{ 4, 91153}, 
+				{ 5, 91155}, 
+
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94392}, 
+				{ 2, 94364}, 
+				{ 3, 94429}, 
+				{ 4, 94365}, 
+				{ 5, 94366}, 
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91172}, --Tyrannical Gladiator's Wyrmhide Helm
+				{ 2, 91174}, --Tyrannical Gladiator's Wyrmhide Spaulders
+				{ 3, 91176}, --Tyrannical Gladiator's Wyrmhide Robes
+				{ 4, 91178}, --Tyrannical Gladiator's Wyrmhide Gloves
+				{ 5, 91180}, --Tyrannical Gladiator's Wyrmhide Legguards
+				{ 7, 91157}, --Tyrannical Gladiator's Dragonhide Helm
+				{ 8, 91159}, --Tyrannical Gladiator's Dragonhide Spaulders
+				{ 9, 91161}, --Tyrannical Gladiator's Dragonhide Robes
+				{ 10, 91163}, --Tyrannical Gladiator's Dragonhide Gloves
+				{ 11, 91165}, --Tyrannical Gladiator's Dragonhide Legguards
+				{ 16, 91189}, --Tyrannical Gladiator's Kodohide Helm
+				{ 17, 91191}, --Tyrannical Gladiator's Kodohide Spaulders
+				{ 18, 91193}, --Tyrannical Gladiator's Kodohide Robes
+				{ 19, 91195}, --Tyrannical Gladiator's Kodohide Gloves
+				{ 20, 91197}, --Tyrannical Gladiator's Kodohide Legguards				
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94412}, --Tyrannical Gladiator's Wyrmhide Helm
+				{ 2, 94347}, --Tyrannical Gladiator's Wyrmhide Spaulders
+				{ 3, 94483}, --Tyrannical Gladiator's Wyrmhide Robes
+				{ 4, 94327}, --Tyrannical Gladiator's Wyrmhide Gloves
+				{ 5, 94416}, --Tyrannical Gladiator's Wyrmhide Legguards
+				{ 7, 94455}, --Tyrannical Gladiator's Dragonhide Helm
+				{ 8, 94367}, --Tyrannical Gladiator's Dragonhide Spaulders
+				{ 9, 94368}, --Tyrannical Gladiator's Dragonhide Robes
+				{ 10, 94456}, --Tyrannical Gladiator's Dragonhide Gloves
+				{ 11, 94457}, --Tyrannical Gladiator's Dragonhide Legguards
+				{ 16, 94371}, --Tyrannical Gladiator's Kodohide Helm
+				{ 17, 94492}, --Tyrannical Gladiator's Kodohide Spaulders
+				{ 18, 94477}, --Tyrannical Gladiator's Kodohide Robes
+				{ 19, 94437}, --Tyrannical Gladiator's Kodohide Gloves
+				{ 20, 94372}, --Tyrannical Gladiator's Kodohide Legguards		
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91222}, --Tyrannical Gladiator's Chain Helm
+				{ 2, 91224}, --Tyrannical Gladiator's Chain Spaulders
+				{ 3, 91226}, --Tyrannical Gladiator's Chain Armor
+				{ 4, 91228}, --Tyrannical Gladiator's Chain Gauntlets
+				{ 5, 91230}, --Tyrannical Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94405}, --Tyrannical Gladiator's Chain Helm
+				{ 2, 94453}, --Tyrannical Gladiator's Chain Spaulders
+				{ 3, 94406}, --Tyrannical Gladiator's Chain Armor
+				{ 4, 94384}, --Tyrannical Gladiator's Chain Gauntlets
+				{ 5, 94450}, --Tyrannical Gladiator's Chain Leggings
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91232}, --Tyrannical Gladiator's Silk Cowl
+				{ 2, 91234}, --Tyrannical Gladiator's Silk Amice
+				{ 3, 91236}, --Tyrannical Gladiator's Silk Robe
+				{ 4, 91238}, --Tyrannical Gladiator's Silk Handguards
+				{ 5, 91240}, --Tyrannical Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94451}, --Tyrannical Gladiator's Silk Cowl
+				{ 2, 94381}, --Tyrannical Gladiator's Silk Amice
+				{ 3, 94362}, --Tyrannical Gladiator's Silk Robe
+				{ 4, 94431}, --Tyrannical Gladiator's Silk Handguards
+				{ 5, 94389}, --Tyrannical Gladiator's Silk Trousers
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91259}, --Tyrannical Gladiator's Copperskin Helm
+				{ 2, 91263}, --Tyrannical Gladiator's Copperskin Spaulders
+				{ 3, 91265}, --Tyrannical Gladiator's Copperskin Tunic
+				{ 4, 91261}, --Tyrannical Gladiator's Copperskin Gloves
+				{ 5, 91257}, --Tyrannical Gladiator's Copperskin Legguards
+				{ 7, 91249}, --Tyrannical Gladiator's Ironskin Helm
+				{ 8, 91253}, --Tyrannical Gladiator's Ironskin Spaulders
+				{ 9, 91255}, --Tyrannical Gladiator's Ironskin Tunic
+				{ 10, 91251}, --Tyrannical Gladiator's Ironskin Gloves
+				{ 11, 91247}, --Tyrannical Gladiator's Ironskin Legguards				
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94341}, --Tyrannical Gladiator's Copperskin Helm
+				{ 2, 94493}, --Tyrannical Gladiator's Copperskin Spaulders
+				{ 3, 94479}, --Tyrannical Gladiator's Copperskin Tunic
+				{ 4, 94478}, --Tyrannical Gladiator's Copperskin Gloves
+				{ 5, 94340}, --Tyrannical Gladiator's Copperskin Legguards
+				{ 7, 94428}, --Tyrannical Gladiator's Ironskin Helm
+				{ 8, 94339}, --Tyrannical Gladiator's Ironskin Spaulders
+				{ 9, 94436}, --Tyrannical Gladiator's Ironskin Tunic
+				{ 10, 94370}, --Tyrannical Gladiator's Ironskin Gloves
+				{ 11, 94391}, --Tyrannical Gladiator's Ironskin Legguards		
+			},
+		},		
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91291}, --Tyrannical Gladiator's Scaled Helm
+				{ 2, 91295}, --Tyrannical Gladiator's Scaled Shoulders
+				{ 3, 91287}, --Tyrannical Gladiator's Scaled Chestpiece
+				{ 4, 91293}, --Tyrannical Gladiator's Scaled Gauntlets
+				{ 5, 91289}, --Tyrannical Gladiator's Scaled Legguards
+				{ 7, 91271}, --Tyrannical Gladiator's Ornamented Headcover
+				{ 8, 91275}, --Tyrannical Gladiator's Ornamented Spaulders
+				{ 9, 91267}, --Tyrannical Gladiator's Ornamented Chestguard
+				{ 10, 91273}, --Tyrannical Gladiator's Ornamented Gloves
+				{ 11, 91269}, --Tyrannical Gladiator's Ornamented Legplates				
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94348}, --Tyrannical Gladiator's Scaled Helm
+				{ 2, 94413}, --Tyrannical Gladiator's Scaled Shoulders
+				{ 3, 94345}, --Tyrannical Gladiator's Scaled Chestpiece
+				{ 4, 94484}, --Tyrannical Gladiator's Scaled Gauntlets
+				{ 5, 94438}, --Tyrannical Gladiator's Scaled Legguards
+				{ 7, 94495}, --Tyrannical Gladiator's Ornamented Headcover
+				{ 8, 94460}, --Tyrannical Gladiator's Ornamented Spaulders
+				{ 9, 94463}, --Tyrannical Gladiator's Ornamented Chestguard
+				{ 10, 94496}, --Tyrannical Gladiator's Ornamented Gloves
+				{ 11, 94343}, --Tyrannical Gladiator's Ornamented Legplates		
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91311}, --Tyrannical Gladiator's Satin Hood
+				{ 2, 91317}, --Tyrannical Gladiator's Satin Mantle
+				{ 3, 91315}, --Tyrannical Gladiator's Satin Robe
+				{ 4, 91313}, --Tyrannical Gladiator's Satin Gloves
+				{ 5, 91309}, --Tyrannical Gladiator's Satin Leggings
+				{ 7, 91321}, --Tyrannical Gladiator's Mooncloth Helm
+				{ 8, 91327}, --Tyrannical Gladiator's Mooncloth Mantle
+				{ 9, 91325}, --Tyrannical Gladiator's Mooncloth Robe
+				{ 10, 91323}, --Tyrannical Gladiator's Mooncloth Gloves
+				{ 11, 91319}, --Tyrannical Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94419}, --Tyrannical Gladiator's Satin Hood
+				{ 2, 94466}, --Tyrannical Gladiator's Satin Mantle
+				{ 3, 94397}, --Tyrannical Gladiator's Satin Robe
+				{ 4, 94420}, --Tyrannical Gladiator's Satin Gloves
+				{ 5, 94328}, --Tyrannical Gladiator's Satin Leggings
+				{ 7, 94467}, --Tyrannical Gladiator's Mooncloth Helm
+				{ 8, 94385}, --Tyrannical Gladiator's Mooncloth Mantle
+				{ 9, 94335}, --Tyrannical Gladiator's Mooncloth Robe
+				{ 10, 94334}, --Tyrannical Gladiator's Mooncloth Gloves
+				{ 11, 94423}, --Tyrannical Gladiator's Mooncloth Leggings
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91340}, --Tyrannical Gladiator's Leather Helm
+				{ 2, 91342}, --Tyrannical Gladiator's Leather Spaulders
+				{ 3, 91344}, --Tyrannical Gladiator's Leather Tunic
+				{ 4, 91346}, --Tyrannical Gladiator's Leather Gloves
+				{ 5, 91348}, --Tyrannical Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94443}, --Tyrannical Gladiator's Leather Helm
+				{ 2, 94377}, --Tyrannical Gladiator's Leather Spaulders
+				{ 3, 94426}, --Tyrannical Gladiator's Leather Tunic
+				{ 4, 94446}, --Tyrannical Gladiator's Leather Gloves
+				{ 5, 94447}, --Tyrannical Gladiator's Leather Legguards
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91372},
+				{ 2, 91376},
+				{ 3, 91368},
+				{ 4, 91374},
+				{ 5, 91370},
+				{ 7, 91384},
+				{ 8, 91388},
+				{ 9, 91380},
+				{ 10, 91386},
+				{ 11, 91382},
+				{ 16, 91362},
+				{ 17, 91366},
+				{ 18, 91358},
+				{ 19, 91364},
+				{ 20, 91360},
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94430},
+				{ 2, 94342},
+				{ 3, 94475},
+				{ 4, 94494},
+				{ 5, 94458},
+				{ 7, 94409},
+				{ 8, 94350},
+				{ 9, 94459},
+				{ 10, 94497},
+				{ 11, 94408},
+				{ 16, 94434},
+				{ 17, 94369},
+				{ 18, 94433},
+				{ 19, 94435},
+				{ 20, 94490},
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91420}, --Tyrannical Gladiator's Felweave Cowl
+				{ 2, 91422}, --Tyrannical Gladiator's Felweave Amice
+				{ 3, 91424}, --Tyrannical Gladiator's Felweave Raiment
+				{ 4, 91426}, --Tyrannical Gladiator's Felweave Handguards
+				{ 5, 91428}, --Tyrannical Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94441}, --Tyrannical Gladiator's Felweave Cowl
+				{ 2, 94442}, --Tyrannical Gladiator's Felweave Amice
+				{ 3, 94471}, --Tyrannical Gladiator's Felweave Raiment
+				{ 4, 94375}, --Tyrannical Gladiator's Felweave Handguards
+				{ 5, 94398}, --Tyrannical Gladiator's Felweave Trousers
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 91430}, --Tyrannical Gladiator's Plate Helm
+				{ 2, 91432}, --Tyrannical Gladiator's Plate Shoulders
+				{ 3, 91434}, --Tyrannical Gladiator's Plate Chestpiece
+				{ 4, 91436}, --Tyrannical Gladiator's Plate Gauntlets
+				{ 5, 91438}, --Tyrannical Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				{ 1, 94444}, --Tyrannical Gladiator's Plate Helm
+				{ 2, 94331}, --Tyrannical Gladiator's Plate Shoulders
+				{ 3, 94332}, --Tyrannical Gladiator's Plate Chestpiece
+				{ 4, 94448}, --Tyrannical Gladiator's Plate Gauntlets
+				{ 5, 94401}, --Tyrannical Gladiator's Plate Legguards
+			},
+		},		
+	},
+}
+
+-- Classic Season 12
+data["CLASSICS12SETS"] = {
+	name = string.format(AL["Season %d"], 12).." "..AL["Class Sets"].." ("..AL["Mists of Pandaria"]..")",
+	ContentType = NORMAL_ITTYPE,
+	items = {	
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98786}, --Crafted Malevolent Gladiator's Dreadplate Helm
+				{ 2, 98788}, --Crafted Malevolent Gladiator's Dreadplate Shoulders
+				{ 3, 98784}, --Crafted Malevolent Gladiator's Dreadplate Chestpiece
+				{ 4, 98785}, --Crafted Malevolent Gladiator's Dreadplate Gauntlets
+				{ 5, 98787}, --Crafted Malevolent Gladiator's Dreadplate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["DRUID"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98806}, --Crafted Malevolent Gladiator's Wyrmhide Helm
+				{ 2, 98809}, --Crafted Malevolent Gladiator's Wyrmhide Spaulders
+				{ 3, 98808}, --Crafted Malevolent Gladiator's Wyrmhide Robes
+				{ 4, 98805}, --Crafted Malevolent Gladiator's Wyrmhide Gloves
+				{ 5, 98807}, --Crafted Malevolent Gladiator's Wyrmhide Legguards
+				{ 7, 98790}, --Crafted Malevolent Gladiator's Dragonhide Helm
+				{ 8, 98793}, --Crafted Malevolent Gladiator's Dragonhide Spaulders
+				{ 9, 98792}, --Crafted Malevolent Gladiator's Dragonhide Robes
+				{ 10, 98789}, --Crafted Malevolent Gladiator's Dragonhide Gloves
+				{ 11, 98791}, --Crafted Malevolent Gladiator's Dragonhide Legguards
+				{ 16, 98798}, --Crafted Malevolent Gladiator's Kodohide Helm
+				{ 17, 98801}, --Crafted Malevolent Gladiator's Kodohide Spaulders
+				{ 18, 98800}, --Crafted Malevolent Gladiator's Kodohide Robes
+				{ 19, 98797}, --Crafted Malevolent Gladiator's Kodohide Gloves
+				{ 20, 98799}, --Crafted Malevolent Gladiator's Kodohide Legguards				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["HUNTER"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98822}, --Crafted Malevolent Gladiator's Chain Helm
+				{ 2, 98824}, --Crafted Malevolent Gladiator's Chain Spaulders
+				{ 3, 98820}, --Crafted Malevolent Gladiator's Chain Armor
+				{ 4, 98821}, --Crafted Malevolent Gladiator's Chain Gauntlets
+				{ 5, 98823}, --Crafted Malevolent Gladiator's Chain Leggings
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MAGE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98826}, --Crafted Malevolent Gladiator's Silk Cowl
+				{ 2, 98829}, --Crafted Malevolent Gladiator's Silk Amice
+				{ 3, 98828}, --Crafted Malevolent Gladiator's Silk Robe
+				{ 4, 98825}, --Crafted Malevolent Gladiator's Silk Handguards
+				{ 5, 98827}, --Crafted Malevolent Gladiator's Silk Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["MONK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98839}, --Crafted Malevolent Gladiator's Copperskin Helm
+				{ 2, 98841}, --Crafted Malevolent Gladiator's Copperskin Spaulders
+				{ 3, 98842}, --Crafted Malevolent Gladiator's Copperskin Tunic
+				{ 4, 98838}, --Crafted Malevolent Gladiator's Copperskin Gloves
+				{ 5, 98840}, --Crafted Malevolent Gladiator's Copperskin Legguards
+				{ 7, 98834}, --Crafted Malevolent Gladiator's Ironskin Helm
+				{ 8, 98836}, --Crafted Malevolent Gladiator's Ironskin Spaulders
+				{ 9, 98837}, --Crafted Malevolent Gladiator's Ironskin Tunic
+				{ 10, 98833}, --Crafted Malevolent Gladiator's Ironskin Gloves
+				{ 11, 98835}, --Crafted Malevolent Gladiator's Ironskin Legguards				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},		
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PALADIN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98845}, --Crafted Malevolent Gladiator's Scaled Helm
+				{ 2, 98847}, --Crafted Malevolent Gladiator's Scaled Shoulders
+				{ 3, 98843}, --Crafted Malevolent Gladiator's Scaled Chestpiece
+				{ 4, 98844}, --Crafted Malevolent Gladiator's Scaled Gauntlets
+				{ 5, 98846}, --Crafted Malevolent Gladiator's Scaled Legguards
+				{ 7, 98856}, --Crafted Malevolent Gladiator's Ornamented Headcover
+				{ 8, 98858}, --Crafted Malevolent Gladiator's Ornamented Spaulders
+				{ 9, 98854}, --Crafted Malevolent Gladiator's Ornamented Chestguard
+				{ 10, 98855}, --Crafted Malevolent Gladiator's Ornamented Gloves
+				{ 11, 98857}, --Crafted Malevolent Gladiator's Ornamented Legplates				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["PRIEST"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98871}, --Crafted Malevolent Gladiator's Satin Hood
+				{ 2, 98874}, --Crafted Malevolent Gladiator's Satin Mantle
+				{ 3, 98873}, --Crafted Malevolent Gladiator's Satin Robe
+				{ 4, 98870}, --Crafted Malevolent Gladiator's Satin Gloves
+				{ 5, 98872}, --Crafted Malevolent Gladiator's Satin Leggings
+				{ 7, 98866}, --Crafted Malevolent Gladiator's Mooncloth Helm
+				{ 8, 98869}, --Crafted Malevolent Gladiator's Mooncloth Mantle
+				{ 9, 98868}, --Crafted Malevolent Gladiator's Mooncloth Robe
+				{ 10, 98865}, --Crafted Malevolent Gladiator's Mooncloth Gloves
+				{ 11, 98867}, --Crafted Malevolent Gladiator's Mooncloth Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["ROGUE"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98886}, --Crafted Malevolent Gladiator's Leather Helm
+				{ 2, 98888}, --Crafted Malevolent Gladiator's Leather Spaulders
+				{ 3, 98884}, --Crafted Malevolent Gladiator's Leather Tunic
+				{ 4, 98885}, --Crafted Malevolent Gladiator's Leather Gloves
+				{ 5, 98887}, --Crafted Malevolent Gladiator's Leather Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["SHAMAN"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98907}, --Crafted Malevolent Gladiator's Mail Helm
+				{ 2, 98909}, --Crafted Malevolent Gladiator's Mail Spaulders
+				{ 3, 98905}, --Crafted Malevolent Gladiator's Mail Armor
+				{ 4, 98906}, --Crafted Malevolent Gladiator's Mail Gauntlets
+				{ 5, 98908}, --Crafted Malevolent Gladiator's Mail Leggings
+				{ 7, 98901}, --Crafted Malevolent Gladiator's Linked Helm
+				{ 8, 98903}, --Crafted Malevolent Gladiator's Linked Spaulders
+				{ 9, 98899}, --Crafted Malevolent Gladiator's Linked Armor
+				{ 10, 98900}, --Crafted Malevolent Gladiator's Linked Gauntlets
+				{ 11, 98902}, --Crafted Malevolent Gladiator's Linked Leggings
+				{ 16, 98896}, --Crafted Malevolent Gladiator's Ringmail Helm
+				{ 17, 98898}, --Crafted Malevolent Gladiator's Ringmail Spaulders
+				{ 18, 98894}, --Crafted Malevolent Gladiator's Ringmail Armor
+				{ 19, 98895}, --Crafted Malevolent Gladiator's Ringmail Gauntlets
+				{ 20, 98897}, --Crafted Malevolent Gladiator's Ringmail Leggings				
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARLOCK"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98922}, --Crafted Malevolent Gladiator's Felweave Cowl
+				{ 2, 98925}, --Crafted Malevolent Gladiator's Felweave Amice
+				{ 3, 98924}, --Crafted Malevolent Gladiator's Felweave Raiment
+				{ 4, 98921}, --Crafted Malevolent Gladiator's Felweave Handguards
+				{ 5, 98923}, --Crafted Malevolent Gladiator's Felweave Trousers
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},
+		{
+			name = LOCALIZED_CLASS_NAMES_MALE["WARRIOR"],
+			[ALLIANCE_DIFF] = {
+				{ 1, 98928}, --Crafted Malevolent Gladiator's Plate Helm
+				{ 2, 98930}, --Crafted Malevolent Gladiator's Plate Shoulders
+				{ 3, 98926}, --Crafted Malevolent Gladiator's Plate Chestpiece
+				{ 4, 98927}, --Crafted Malevolent Gladiator's Plate Gauntlets
+				{ 5, 98929}, --Crafted Malevolent Gladiator's Plate Legguards
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+			},
+		},		
 	},
 }
 
